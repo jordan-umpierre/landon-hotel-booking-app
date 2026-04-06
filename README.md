@@ -97,13 +97,3 @@ Manual smoke test checklist:
   Returns available rooms for the requested dates.
 - `POST /room/reservation/v1`
   Creates a reservation for a selected room.
-
-## Resume Summary
-
-Built a full-stack hotel reservation application using Spring Boot, Angular, H2, and Docker. Implemented concurrent localization, timezone-aware messaging, and REST endpoints for room search and booking.
-
-## Before Publishing
-
-- Confirm this portfolio version is allowed to be posted publicly.
-- Keep generated folders such as `target/`, `node_modules/`, `coverage/`, and `src/main/resources/static/` out of Git.
-- Add 1-2 screenshots of the homepage and booking flow before sharing the repo with recruiters.
