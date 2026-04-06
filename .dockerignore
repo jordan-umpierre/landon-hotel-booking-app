@@ -1,0 +1,13 @@
+target/
+node_modules/
+._*
+.DS_Store
+src/main/UI/node_modules/
+src/main/UI/.angular/
+src/main/UI/dist/
+src/main/UI/coverage/
+src/main/resources/static/
+.git/
+.idea/
+.vscode/
+*.iml
