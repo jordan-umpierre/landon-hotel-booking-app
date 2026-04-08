@@ -140,6 +140,3 @@ Manual smoke test checklist:
 - `GET /room/reservation/v1/{roomId}` returns one room by ID.
 - `POST /room/reservation/v1` creates a reservation for a selected room.
 
-## Resume Bullet
-
-Built a full-stack hotel reservation application with Spring Boot, Angular, Spring Data JPA, and H2, including room availability search, reservation creation, localized welcome messages loaded concurrently with Java threads, time zone conversion, and Dockerized deployment.
