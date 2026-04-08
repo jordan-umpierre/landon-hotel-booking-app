@@ -49,6 +49,8 @@ Then open:
 http://localhost:8080
 ```
 
+The hotel UI and backend APIs work in Docker, but the H2 console is intended for local Maven runs.
+
 ## Run Locally
 
 Prerequisites:
@@ -91,6 +93,8 @@ http://localhost:8080/h2-console
 
 Use JDBC URL `jdbc:h2:file:~/landon-hotel-booking-db`, username `sa`, and a blank password.
 
+If the app fails to start with `Wrong user name or password`, rename the existing `~/landon-hotel-booking-db.mv.db` and `~/landon-hotel-booking-db.trace.db` files so H2 can recreate the local database with the expected credentials.
+
 ## Test And Verify
 
 Run backend tests from the repository root:
@@ -131,7 +135,7 @@ Manual smoke test checklist:
 - Confirm ET, MT, and UTC event times render.
 - Search for rooms with check-in and checkout dates.
 - Reserve a room and confirm the request succeeds.
-- Open the H2 console and confirm reservation data is persisted locally.
+- When running locally, open the H2 console and confirm reservation data is persisted.
 
 ## API Overview
 
