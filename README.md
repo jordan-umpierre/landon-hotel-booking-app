@@ -114,6 +114,8 @@ npm run build
 npm run test:ci
 ```
 
+The CI test script auto-detects a local Chromium-based browser. It works with Google Chrome or Microsoft Edge, and you can also set `CHROME_BIN` manually if your browser is installed in a custom location.
+
 Run a full package build from the repository root after installing frontend dependencies:
 
 ```bash
